@@ -1,0 +1,21 @@
+
+-- *************************************************
+	Fetching Databases & its Tables from Azure SQL
+-- *************************************************
+select table_schema, table_name from information_schema.tables
+
+select table_schema, table_name from information_schema.tables where table_schema = 'dbo'
+
+-- *************************************************
+	Fetching Records of Table from Azure SQL
+-- *************************************************
+
+select * from employees
+select * from orders
+select * from orders_target
+
+-- ***********************************
+	ADF - Queries
+-- ***********************************
+1. Activity - Lookup
+	Query: select table_schema, table_name from information_schema.tables where table_schema = 'dbo'

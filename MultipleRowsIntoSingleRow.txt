@@ -1,0 +1,10 @@
+ID,Product,Sales
+1,Mobile,20000
+1,Refrigerator,	30000
+1,Washing machine,40000
+2,Mobile,21000
+2,Refrigerator,10000
+2,Washing machine,5000
+3,Mobile,24000
+3,Refrigerator,3600
+3,Washing machine,16000
